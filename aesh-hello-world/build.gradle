@@ -1,0 +1,20 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+group = 'org.jboss.aesh'
+
+mainClassName = 'org.jboss.aesh.Main'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+run.standardInput = System.in
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  compile 'org.jboss.aesh:aesh:0.60'
+}
+
