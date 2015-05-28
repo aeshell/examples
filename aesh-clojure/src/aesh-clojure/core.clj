@@ -28,10 +28,10 @@
         (.commands (into-array Class [Cat Cd Clear Echo Exit Harlem Less Ls Matrix Mkdir More Pwd Rm Touch]))))
 
 (defn -main [& args]
-  (println "\nCloesh is a Clojure app that wraps Æsh for you!\nDeveloped by Hildeberto Mendonca - hildeberto.com\n")
+  (println "\naesh-clojure is a Clojure app that wraps Æsh for you!\nDeveloped by Hildeberto Mendonca - hildeberto.com\n")
   (let [sb   (init-settings-builder)
         acrb (init-aesh-command-registry-builder)]
       (let [acb (doto (AeshConsoleBuilder.) (.commandRegistry (.create acrb))
                                             (.settings (.create sb))
-                                            (.prompt (Prompt. "[cloesh@~]$ ")))]
+                                            (.prompt (Prompt. "[aesh-clojure@~]$ ")))]
         (.start (.create acb)))))
