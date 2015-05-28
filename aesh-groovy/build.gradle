@@ -1,0 +1,16 @@
+apply plugin: 'groovy'
+apply plugin: 'application'
+
+group = 'org.jboss.aesh'
+mainClassName = 'org.jboss.aesh.Main'
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  compile 'org.codehaus.groovy:groovy:2.4.3'
+  compile 'org.jboss.aesh:aesh:0.59'
+  compile 'org.jboss.aesh:aesh-extensions:0.59'
+}
+
