@@ -5,6 +5,11 @@ import org.jboss.aesh.console.command.Command;
 import org.jboss.aesh.console.command.CommandResult;
 import org.jboss.aesh.console.command.invocation.CommandInvocation;
 
+/**
+ * 
+ * @author Helio Frota
+ *
+ */
 @CommandDefinition(name = "helloworld", description = "")
 public class HelloWorldCommand implements Command<CommandInvocation> {
 

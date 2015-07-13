@@ -5,7 +5,7 @@
 
 ```
 $ git clone https://github.com/aeshell/examples.git
-$ cd examples/aesh-hello-world
+$ cd examples/aesh-keyboard-example
 $ ./gradlew run
 ```
 
@@ -13,11 +13,16 @@ $ ./gradlew run
 
 ```
 $ git clone https://github.com/aeshell/examples.git
-$ cd examples/aesh-hello-world
+$ cd examples/aesh-keyboard-example
 $ ./gradlew clean distZip
 $ cd build/distributions/
-$ unzip aesh-hello-world.zip
-$ cd aesh-hello-world/bin
-$ ./aesh-hello-world
+$ unzip aesh-keyboard-example.zip
+$ cd aesh-keyboard-example/bin
+$ ./aesh-keyboard-example
 ```
 
+####Usage
+
+Type `h, j, k, l` to print to stdout
+
+`q` or `ESC` to exit
