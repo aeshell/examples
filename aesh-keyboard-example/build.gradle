@@ -15,6 +15,7 @@ repositories {
 }
 
 dependencies {
-  compile 'org.jboss.aesh:aesh:0.61'
+  compile 'org.jboss.aesh:aesh:0.64'
 }
+
 

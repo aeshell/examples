@@ -1,4 +1,4 @@
-(ns cloesh.core
+(ns aesh_clojure.core
   (:import (org.jboss.aesh.console                  AeshConsoleBuilder Prompt)
            (org.jboss.aesh.console.command.registry AeshCommandRegistryBuilder)
            (org.jboss.aesh.console.settings         SettingsBuilder)

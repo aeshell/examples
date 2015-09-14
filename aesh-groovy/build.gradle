@@ -10,7 +10,7 @@ repositories {
 
 dependencies {
   compile 'org.codehaus.groovy:groovy:2.4.3'
-  compile 'org.jboss.aesh:aesh:0.61'
-  compile 'org.jboss.aesh:aesh-extensions:0.61'
+  compile 'org.jboss.aesh:aesh:0.64'
+  compile 'org.jboss.aesh:aesh-extensions:0.64'
 }
 
